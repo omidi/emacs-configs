@@ -1,0 +1,22 @@
+ls
+exit
+ls
+ls .emacs.d/
+ls
+cd .emacs.d/
+ls
+exit
+cd .emacs.d/
+ls
+cd yasnippet/
+ls
+cd snippets/
+ls
+less java-mode/
+ls java-mode/
+mv Downloads/js-comint.el ~/.emacs.d/.
+cd .emacs.d/
+ls
+mkdir javascript_console
+mv js-comint.el javascript_console/.
+exit
