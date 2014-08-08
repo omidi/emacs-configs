@@ -64,15 +64,17 @@
 
 
 ;; color theme 
-(add-to-list 'load-path "~/.emacs.d/color-theme-6.6.0")
+(add-to-list 'load-path "~/.emacs.d/themes/color-theme-6.6.0")
 (require 'color-theme)
 (eval-after-load "color-theme"
   '(progn
      (color-theme-initialize)
      (color-theme-hober)))
-;; color theme solarized
-(add-to-list 'load-path "~/.emacs.d/emacs-color-theme-solarized")
-(require 'color-theme-solarized)
+
+
+(add-to-list 'load-path "~/.emacs.d/themes")
+(add-to-list 'custom-theme-load-path "~/.emacs.d/themes")
+(require 'sunburst-theme)
 
 
 ;; brakets pairing
@@ -148,3 +150,15 @@
 ;;                        (replace-regexp-in-string ".*1G\.\.\..*5G" "..."
 ;; 						 (replace-regexp-in-string ".*1G.*3G" "&gt;" output) ) ) ) )
 
+(custom-set-variables
+ ;; custom-set-variables was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ '(custom-safe-themes (quote ("a774c5551bc56d7a9c362dca4d73a374582caedb110c201a09b410c0ebbb5e70" "e26780280b5248eb9b2d02a237d9941956fc94972443b0f7aeec12b5c15db9f3" "bf648fd77561aae6722f3d53965a9eb29b08658ed045207fe32ffed90433eb52" "e65e8b9a3c9b035bf0ed594789c994478a8e3a34b9223fd616546ca97c7c13ec" "645599a2aab022fd7677124515a3104a60ba64d2cafdd77a6e7703f8ae97250c" default))))
+(custom-set-faces
+ ;; custom-set-faces was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ )
