@@ -20,3 +20,6 @@ ls
 mkdir javascript_console
 mv js-comint.el javascript_console/.
 exit
+mkdir scripts
+cd scripts/
+exit

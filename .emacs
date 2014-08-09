@@ -155,10 +155,40 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
- '(custom-safe-themes (quote ("a774c5551bc56d7a9c362dca4d73a374582caedb110c201a09b410c0ebbb5e70" "e26780280b5248eb9b2d02a237d9941956fc94972443b0f7aeec12b5c15db9f3" "bf648fd77561aae6722f3d53965a9eb29b08658ed045207fe32ffed90433eb52" "e65e8b9a3c9b035bf0ed594789c994478a8e3a34b9223fd616546ca97c7c13ec" "645599a2aab022fd7677124515a3104a60ba64d2cafdd77a6e7703f8ae97250c" default))))
+ '(custom-safe-themes (quote ("d6a00ef5e53adf9b6fe417d2b4404895f26210c52bb8716971be106550cea257" "a774c5551bc56d7a9c362dca4d73a374582caedb110c201a09b410c0ebbb5e70" "e26780280b5248eb9b2d02a237d9941956fc94972443b0f7aeec12b5c15db9f3" "bf648fd77561aae6722f3d53965a9eb29b08658ed045207fe32ffed90433eb52" "e65e8b9a3c9b035bf0ed594789c994478a8e3a34b9223fd616546ca97c7c13ec" "645599a2aab022fd7677124515a3104a60ba64d2cafdd77a6e7703f8ae97250c" default))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  )
+
+
+
+;; (add-to-list 'load-path "~/.emacs.d/web-mode")
+;; (require 'web-mode)
+;; (add-to-list 'auto-mode-alist '("\\.html?\\'" . web-mode))
+
+;; (defun my-web-mode-hook ()  
+;;    (setq web-mode-markup-indent-offset 2)
+;; )
+;; (add-hook 'web-mode-hook 'my-web-mode-hook)
+
+;; ;; HTML indentation 
+;; (setq web-mode-markup-indent-offset 2)
+;; ;; CSS indentation
+;; (setq web-mode-css-indent-offset 2)
+
+;; (setq web-mode-code-indent-offset 2)
+
+;; ;; commenting 
+;; (setq web-mode-comment-style 2)
+;; (setq web-mode-style-padding 1)
+;; (setq web-mode-script-padding 1)
+;; (setq web-mode-block-padding 0)
+
+;; ;; (set-face-attribute 'web-mode-css-rule-face nil :foreground "Pink3")
+;; (setq web-mode-enable-auto-pairing t)
+;; (setq web-mode-enable-css-colorization t)
+;; (setq web-mode-enable-block-face t)
+;; (setq web-mode-enable-part-face t)
